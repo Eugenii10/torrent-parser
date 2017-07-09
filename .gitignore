@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TorrentParser/bin/
+/TorrentParser/obj/
+/SampleProject/bin/
+/SampleProject/obj/
+/.vs
+*.vspx
+*.vsp
+*.diagsession
+*.psess
+*.bat
+*.user
