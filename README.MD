@@ -23,7 +23,7 @@ To use it in your project you need to include the **BEncodeParser** class (from 
 * The BitTorrent specification items which are not realised:
   * Numbers such as `i-0e` or `i03e` are not treated as incorrect ones.
   * Keys in a BEncode dictionary must be sorted in ascending order using binary comparison. This is not checked while parsing.
-  * Multi-file torrent has a bit different structure unlike an one-file torrent.  
+  * One-file torrent has a bit different structure unlike a multi-file torrent.  
   *Since the main goal of this project was to compare several files inside one torrent, this difference wasn't realised.*
 * Torrent file must consist of a single dictionary with several items. This is not checked while parsing. So a parsed file can include several `numbers` or `strings` following each other outside of any list or dictionary.
 * The class code doesn't process exceptions by itself, it just throws them to user.  
@@ -31,4 +31,4 @@ To use it in your project you need to include the **BEncodeParser** class (from 
 
 # CHANGES #
 
-* 1.0 — 09.07.2017 — First release.
+* 1.0 â€” 09.07.2017 â€” First release.
